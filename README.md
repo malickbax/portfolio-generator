@@ -18,4 +18,4 @@ No testing required
 ## Questions
 Author: **Malick Ba**, Software Engineer based in Virginia, USA.
 
-If you have any questions, please feel free to post them as a comment or visit my [GitHub page](https://github.com/malickbax)  for more projects.
+Please visit my [GitHub page](https://github.com/malickbax) for more projects.
