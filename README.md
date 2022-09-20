@@ -16,4 +16,5 @@ Malick Ba, Software Engineer
 No testing required
 
 ## Questions
+Author: **Malick Ba**, Software Engineer
 If you have any questions, please feel free to post them as a comment or visit my [GitHub page](https://github.com/malickbax)  for more projects.
