@@ -16,4 +16,5 @@ Malick Ba, Software Engineer
 No testing required
 
 ## Questions
-if you have any questions or feedback, please contact me: malickbax@gmail.com. More of my projects are available on https://github.com/malickbax
+**Malick Ba**
+If you have any questions, please feel free to post them as a comment or visit my [GitHub page](https://github.com/malickbax)  for more projects.
