@@ -1,6 +1,6 @@
+const fs = require('fs');
 const inquirer = require('inquirer');
 const generatePage = require('./src/page-template');
-const { writeFile, copyFile } = require('./utils/generate-site');
 
 const promptUser = () => {
   return inquirer.prompt([
@@ -11,8 +11,8 @@ const promptUser = () => {
       validate: nameInput => {
         if (nameInput) {
           return true;
-        } else {
-          console.log('Please enter your name');
+        } else { 
+          console.log('Please enter your name!');
           return false;
         }
       }
@@ -25,7 +25,7 @@ const promptUser = () => {
         if (githubInput) {
           return true;
         } else {
-          console.log('Please enter your GitHub username');
+          console.log('Please enter your GitHub username!');
           return false;
         }
       }
@@ -66,7 +66,7 @@ Add a New Project
           if (nameInput) {
             return true;
           } else {
-            console.log('You need to enter a project name');
+            console.log('You need to enter a project name!');
             return false;
           }
         }
@@ -79,7 +79,7 @@ Add a New Project
           if (descriptionInput) {
             return true;
           } else {
-            console.log('You need to enter a project description');
+            console.log('You need to enter a project description!');
             return false;
           }
         }
@@ -98,7 +98,7 @@ Add a New Project
           if (linkInput) {
             return true;
           } else {
-            console.log('You need to enter a project GitHub link');
+            console.log('You need to enter a project GitHub link!');
             return false;
           }
         }
@@ -129,18 +129,11 @@ Add a New Project
 promptUser()
   .then(promptProject)
   .then(portfolioData => {
-    return generatePage(portfolioData);
-  })
-  .then(pageHTML => {
-    return writeFile(pageHTML);
-  })
-  .then(writeFileResponse => {
-    console.log(writeFileResponse);
-    return copyFile();
-  })
-  .then(copyFileResponse => {
-    console.log(copyFileResponse);
-  })
-  .catch(err => {
-    console.log(err);
+    const pageHTML = generatePage(portfolioData);
+
+    fs.writeFile('./index.html', pageHTML, err => {
+      if (err) throw new Error(err);
+
+      console.log('Page created! Check out index.html in this directory to see it!');
+    });
   });
