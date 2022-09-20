@@ -6,7 +6,7 @@ This is a command line application that dynamically generates a portfolio using 
 
 ## Installation and Usage
 Please clone this GitHub reposiroty and install Inquirer package. Inquirer installation instructions and details can be found at https://www.npmjs.com/package/inquirer 
-Run node app.js and go through the prompts. Answers inserted in the application will generate a HTML portfolio document.
+Run node app.js and go through the prompts. Answers inserted in the application will generate a portfolio.
 
 
 ## Contributors
