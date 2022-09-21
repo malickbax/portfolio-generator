@@ -16,6 +16,6 @@ Malick Ba, Software Engineer
 No testing required
 
 ## Questions
-Author: **Malick Ba**, Software Engineer based in Virginia, USA.
+**Malick Ba**, Software Engineer based in Virginia, USA.
 
 Please visit my [GitHub page](https://github.com/malickbax) for more projects.
