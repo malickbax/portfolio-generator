@@ -15,4 +15,4 @@ No testing required
 
 ## Questions
 **Malick Ba**, Software Engineer based in Virginia, USA.
-Please visit my [GitHub page](https://github.com/malickbax) for more projects.
+For more projects, please visit my [GitHub page](https://github.com/malickbax) 
