@@ -1,7 +1,7 @@
 # Portfolio Generator
 
 ## Description
-This is a command line application that dynamically generates a portfolio using the Inquirer package. The application is aimed at developers as well as other employees who need to easily generate a portfolio. 
+This is a command line application that dynamically generates a portfolio using the Inquirer package. The application is for developers or other professionals who need to easily generate a portfolio.
 
 ## Installation and Usage
 Please clone this GitHub reposiroty and install Inquirer package by running the following command in the command line interface: 
