@@ -1,6 +1,6 @@
 # Portfolio Generator
-![Licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
+## Description
 This is a command line application that dynamically generates a portfolio using the Inquirer package. The application is aimed at developers as well as other employees who need to easily generate a portfolio. 
 
 ## Installation and Usage
