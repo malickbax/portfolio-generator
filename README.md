@@ -9,9 +9,6 @@ Please clone this GitHub reposiroty and install Inquirer package by running the 
 More installation instructions and details can be found at https://www.npmjs.com/package/inquirer 
 After installing the required dependencies, use the command line to navigate to the root of the application and `run node app`. Follow prompts to enter project information. Answers inserted in the application will generate an output HTML portfolio in the ./dist folder.
 
-## Contributors
-Malick Ba
-
 ## Test
 No testing required
 
